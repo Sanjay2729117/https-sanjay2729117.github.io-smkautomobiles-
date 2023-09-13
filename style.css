@@ -3,10 +3,6 @@ body {
     padding: 0%;
     box-sizing: border-box;
     z-index: 5;
-    overflow: hidden;
-    overflow-x: hidden;
-    height: 100%;
-    width: 100%;
 }
 
 .logo-name {
