@@ -1,0 +1,291 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.logo-name {
+
+    display: inline-flex;
+
+
+}
+
+img {
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+nav h1 {
+    display: inline-block;
+    margin-top: 2.27rem;
+    flex-shrink: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.27894rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 13.36519rem;
+    height: 1.76656rem;
+    flex-shrink: 0;
+}
+
+ul {
+    display: inline-flex;
+    gap: 30.7rem;
+}
+
+li {
+    list-style: none;
+    margin-top: 2.27rem;
+    font-family: 'Libre Franklin', sans-serif;
+    color: #363636;
+    font-size: 1.27894rem;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    position: relative;
+}
+
+.items a:hover {
+    color: #024164;
+}
+
+.items a::after {
+    content: "";
+    position: absolute;
+    background-color: #024164;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+
+.items a:hover:after {
+    height: 3px;
+    width: 100%;
+    left: 0;
+}
+
+nav {
+    margin-left: 58.61px;
+    display: inline-flex;
+    gap: 542.26px;
+    background-color: #ffffff;
+    position: sticky;
+    top: 0px;
+    margin: 0%;
+    width: 100%;
+    z-index: 5;
+    margin-left: 0%;
+}
+
+.content h1 {
+    display: block;
+    color: #024164;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 68.61px;
+    margin-top: 125.41px;
+    font-size: 29.203px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 0px;
+}
+
+#main {
+    color: #363636;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 68.61px;
+    font-size: 68.406px;
+    font-style: normal;
+    font-weight: 700;
+    top: 0px;
+    bottom: 0px;
+    padding: 0px;
+    margin-top: 0px;
+    line-height: normal;
+}
+
+span {
+    color: #024164;
+}
+
+.vector {
+    position: absolute;
+    width: 100%;
+    margin-top: 40px;
+    vertical-align: bottom;
+    z-index: -5;
+}
+
+#cont {
+    color: #fff;
+    text-align: center;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 18.417px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    vertical-align: middle;
+    margin-right: 800px;
+    width: 158.747px;
+    height: 22.025px;
+    margin-left: 0px;
+    margin-top: 10px;
+    flex-shrink: 0;
+    top: 0px;
+    position: absolute;
+    z-index: -5;
+
+}
+
+
+.button1 {
+    border-radius: 37.779px;
+    background: #024164;
+    box-shadow: 0px 6.29644px 6.29644px 0px rgba(0, 0, 0, 0.25);
+    width: 158.98px;
+    height: 40.37px;
+    position: relative;
+    vertical-align: bottom;
+    margin-left: 68.61px;
+    margin-top: 20px;
+    z-index: -5;
+}
+
+.car {
+    width: 554px;
+    height: 376.117px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 784.27px;
+    top: 263px;
+    z-index: -5;
+}
+
+.about h1 {
+    position: relative;
+    margin-top: 400px;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 68.61px;
+    font-size: 68.406px;
+    font-style: normal;
+    font-weight: 700;
+    color: #024164;
+    margin-bottom: 25px;
+    z-index: -5;
+}
+
+.margin {
+    vertical-align: bottom;
+}
+
+.socialimg {
+
+    width: 35.935px;
+    height: 35.308px;
+    flex-shrink: 0;
+    position: absolute;
+    margin-left: 1314.27px;
+    top: 143px;
+}
+
+.social {
+    display: flex;
+    gap: 60.8px;
+
+}
+
+.about p {
+    margin-left: 68.61px;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 800.58px;
+    height: 90px;
+    margin-top: 0px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.about {
+    margin-top: 250px;
+}
+
+.Services1 {
+    margin-top: 0px;
+
+}
+
+.Services1 h1 {
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 68.61px;
+    font-size: 68.406px;
+    font-style: normal;
+    font-weight: 700;
+    color: #024164;
+    margin-bottom: 25px;
+    z-index: -5;
+}
+
+.Services1 p {
+    margin-left: 68.61px;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 800.58px;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.Services1 {
+    margin-left: 650px;
+}
+
+.contact1 {
+    margin-top: 0px;
+
+}
+
+.contact1 p {
+    margin-left: 68.61px;
+    color: #000;
+    font-family: 'Libre Franklin', sans-serif;
+    width: 800.58px;
+    height: 90px;
+    margin-top: 0px;
+    margin-bottom: 200px;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 2.4px;
+}
+
+.contact1 h1 {
+    position: relative;
+    font-family: 'Libre Franklin', sans-serif;
+    margin-left: 68.61px;
+    font-size: 68.406px;
+    font-style: normal;
+    font-weight: 700;
+    color: #024164;
+    margin-bottom: 25px;
+    z-index: -5;
+}
